@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="afterlogin.css">
+
+    <!--<title>Login & Registration Form</title>-->
+</head>
+
+<body" onload="append_name()">
+    <nav id="navbar">
+        <div id="logo" class="box">
+            <img src="logo.png" alt="" class="logopng">
+        </div>
+        <div id="nav-options" class="box">
+            <a id="a-home" href="" onclick="goToHome()">Home</a>
+            <a id="a-hi" href="">Hi!</a>
+            <a id="a-hi" href="" onclick="logout()">Log Out</a>
+        </div>
+    </nav>
+
+
+    <div id="afterlogin-teacher-container1">
+        <h1>Welcome to Teachers's section</h1>
+        <h3>Here you can simply make quizes as much you want!</h3>
+    </div>
+
+
+    <div id="afterlogin-teacher-container2">
+        <div id="afterlogin-btns">
+            <h1>Chose add or remove questions</h1>
+            <h3>Your quiz will be publickly available for students.</h3>
+            <button id="afterlogin-btn1" class="afterlogin-addreomvetns" onclick="addquestion()">Add Question</button>
+            <button id="afterlogin-btn2" class="afterlogin-addreomvetns" onclick="removequestion()">Remove Last Question</button>
+        </div>
+        <div id="afterlogin-addquestion">
+            <h1>Let's add question to your quiz.</h1>
+            <label for="">Enter a Question</label>
+            <input type="text" id="input-question">
+
+            <label for="">Enter a Option 1</label>
+            <input type="text" id="input-option1">
+            <label for="">Enter a Option 2</label>
+            <input type="text" id="input-option2">
+            <label for="">Enter a Option 3</label>
+            <input type="text" id="input-option3">
+            <label for="">Enter a Option 4</label>
+            <input type="text" id="input-option4">
+            <label for="">Enter a Answer No from options</label>
+            <input type="text" id="input-answer">
+
+            <input type="submit" id="addquestion-submit-btn" onclick="add_question_to_quiz(),alert('Congrats! Question added!')">
+        </div>
+        <div id="afterlogin-removequestion">
+            <h1>Are you sure to remove last question from the quiz?</h1>
+            <button id="afterlogin-removequestion-btn"  onclick="removeLastQuestionInner()">Remove Last question</button>
+        </div>
+        <div id="yourquiz">
+            <h1>Your quiz!...</h1>
+            <h3 id="yourquiz-h1">Snap! no question added no far!</h3>
+            <!-- <div class="questions">
+                <li></li>
+                <label for="">Options:</label>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <label for="">Coreect Answer:</label>
+            </div> -->
+        </div>
+    </div>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis non nobis, eveniet beatae in cumque,
+            maxime iusto rem sit veniam provident, distinctio totam quia sequi tempore doloremque vitae. Ipsa!</p>
+    </footer>
+    <!--<script src="script.js"></script>-->
+
+    <script src="afterlogin.js"></script>
+    </body>
+
+</html>

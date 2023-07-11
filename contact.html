@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="contact.css">
+    </style>
+
+    <!--<title>Login & Registration Form</title>-->
+</head>
+
+<body onload="runRecentLoging()">
+    <nav id="navbar">
+        <div id="logo" class="box">
+            <img src="logo.png" alt="" class="logopng">
+        </div>
+        <div id="nav-options" class="box">
+            <a id="a-home" href="index.html">Home</a>
+            <a id="a-ContactUs" href="contact.html">Contact us</a>
+            <a id="a-login" href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit" onclick="contactform_alert()">
+      
+        </form>
+      </div>
+    <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis non nobis, eveniet beatae in cumque,
+            maxime iusto rem sit veniam provident, distinctio totam quia sequi tempore doloremque vitae. Ipsa!</p>
+    </footer>
+    <!--<script src="script.js"></script>-->
+    <script src="contact.js"></script>
+</body>
+
+</html>

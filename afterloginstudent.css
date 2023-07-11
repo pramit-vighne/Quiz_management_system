@@ -1,0 +1,621 @@
+html{
+    font-size: 15px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all;
+    transition-duration: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+
+/* navbar css */
+#navbar{
+    position: sticky;
+    top: 0rem;
+    left: 0rem;
+    height: 4.375rem;
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    font-size: 1.375rem;
+    background-color: darkblue;
+    box-shadow: 1px 1px 5px 0px black;
+
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#nav-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+#nav-options a{
+    padding: 0px .625rem;
+    color: white;
+}
+#nav-options a:hover{
+    padding: 0px .625rem;
+    color: rgb(94, 94, 180);
+}
+.logopng{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+/* navbar css over */
+
+/* container css */
+#container{
+    height: 25rem;
+    padding: 1.4375rem;
+    background-color: aliceblue;
+    background: url("background4.jpg")no-repeat center center/cover;
+    background-blend-mode: darken;
+}
+#container h1{
+    font-size: 5.625rem;
+    color: white;
+}
+#container p{
+    font-size: 1.25rem;
+    text-align: left;
+    color:white;
+    margin-bottom: 4.375rem;    
+}
+#container a{
+    width: 6.25rem;
+    padding: .9375rem 1.5625rem;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    color: white;
+    background-color: darkblue;
+    transition: all;
+    transition-duration: 0.4s;
+    margin: 0rem .625rem;
+}
+#container a:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+/* container 2 css */
+
+#container2-1{
+    background-color: rgb(203, 247, 247);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .9375rem;
+}
+
+#afterlogingstudent-h2remove{
+    display: none;
+}
+
+
+
+/* container 2 css over */
+
+
+
+/* footer css */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 6, 121);
+    height: 5rem;
+    color: wheat;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* from here onwords copy paste 100 */
+
+
+
+
+#container2-1-btn1-1{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-1{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-1{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-1:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-1:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-1:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz1{
+    display: none;
+}
+
+
+
+#container2-1-btn1-2{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-2{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-2{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-2:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-2:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-2:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz2{
+    display: none;
+}
+
+
+
+#container2-1-btn1-3{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-3{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-3{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-3:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-3:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-3:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz3{
+    display: none;
+}
+
+
+
+#container2-1-btn1-4{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-4{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-4{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-4:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-4:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-4:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz4{
+    display: none;
+}
+
+
+
+#container2-1-btn1-5{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-5{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-5{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-5:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-5:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-5:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz5{
+    display: none;
+}
+
+
+
+#container2-1-btn1-6{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-6{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-6{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-6:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-6:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-6:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz6{
+    display: none;
+}
+
+
+
+#container2-1-btn1-7{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-7{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-7{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-7:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-7:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-7:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz7{
+    display: none;
+}
+
+
+
+#container2-1-btn1-8{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-8{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-8{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-8:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-8:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-8:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz8{
+    display: none;
+}
+
+
+
+#container2-1-btn1-9{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-9{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-9{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-9:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-9:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-9:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz9{
+    display: none;
+}
+
+
+
+#container2-1-btn1-10{
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn2-10{
+    display: none;
+    width: 12.5rem;
+    background-color: darkblue;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+}
+#container2-1-btn3-10{
+    display: block;
+    width: 9.5rem;
+    background-color: green;
+    color: white;
+    padding: .625rem;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+}
+#container2-1-btn3-10:hover{
+    background-color: red;
+    color: white;
+}
+#container2-1-btn1-10:hover{
+    background-color: white;
+    color: darkblue;
+}
+#container2-1-btn2-10:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#provided_quiz10{
+    display: none;
+}
+/* copy paste over */

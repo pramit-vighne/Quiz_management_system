@@ -1,0 +1,200 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar css */
+#navbar {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    font-size: 22px;
+    background-color: darkblue;
+    box-shadow: 1px 1px 5px 0px black;
+
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+#nav-options a {
+    padding: 0px 10px;
+    color: white;
+}
+
+#nav-options a:hover {
+    padding: 0px 10px;
+    color: rgb(94, 94, 180);
+}
+
+.logopng {
+    height: 40px;
+    width: 40px;
+}
+
+/* navbar css over */
+
+/* container css */
+#container {
+    height: 500px;
+    padding: 23px;
+    background-color: aliceblue;
+    background: url("background1.jpg")no-repeat center center/cover;
+    background-blend-mode: darken;
+}
+
+#container h1 {
+    font-size: 90px;
+    color: darkblue;
+}
+
+#container p {
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    margin-bottom: 70px;
+}
+
+#container a {
+    width: 100px;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: darkblue;
+    transition: all;
+    transition-duration: 0.4s;
+    margin: 0px 10px;
+}
+
+#container a:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+/* container css over */
+
+
+/* container2 css */
+
+
+#container2 {
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 90px;
+    /* background: url("background2.jpg")no-repeat center center/cover; */
+    background-color: skyblue;
+    background-blend-mode: lighten;
+
+}
+
+.cards {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(183, 210, 231);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 30px;
+    transition: all;
+    transition-duration: 0.5s;
+    margin: 10px;
+}
+
+.cards:hover {
+    background-color: rgb(223, 207, 207);
+    height: 420px;
+    width: 400px;
+
+}
+
+
+
+
+
+/* container2 css over*/
+
+
+/* container3 css*/
+
+
+.container3 {
+    height: 70vh;
+    text-align: center;
+    /* background: url("questionbackground.jpg")no-repeat center center/cover; */
+}
+
+.container3 li {
+    list-style: none;
+}
+
+.container3 h1 {
+    font-size: 90px;
+    color: rgb(105, 100, 100);
+
+}
+
+.container3-main {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 90px;
+
+}
+
+.container3-box {
+    height: 200px;
+    width: 500px;
+    font-size: 22px;
+}
+
+/* container3 css over*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 6, 121);
+    height: 80px;
+    color: wheat;
+    text-align: center;
+}
+
+
+/* responsive design */
+
+
+
+
+/* responsive design css over */

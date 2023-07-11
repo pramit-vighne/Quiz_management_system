@@ -1,0 +1,256 @@
+html{
+    font-size: 15px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all;
+    transition-duration: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+
+/* navbar css */
+#navbar{
+    position: sticky;
+    top: 0rem;
+    left: 0rem;
+    height: 4.375rem;
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    font-size: 1.375rem;
+    background-color: darkblue;
+    box-shadow: 1px 1px 5px 0px black;
+
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#nav-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+#nav-options a{
+    padding: 0px .625rem;
+    color: white;
+}
+#nav-options a:hover{
+    padding: 0px .625rem;
+    color: rgb(94, 94, 180);
+}
+.logopng{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+/* navbar css over */
+
+/* container css */
+#container{
+    min-height: 100vh;
+    padding: 1.4375rem;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container h1{
+    font-size: 5.625rem;
+    color: white;
+}
+#container p{
+    font-size: 1.25rem;
+    text-align: left;
+    color:white;
+    margin-bottom: 4.375rem;    
+}
+#container a{
+    width: 6.25rem;
+    padding: .9375rem 1.5625rem;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    color: white;
+    background-color: darkblue;
+    transition: all;
+    transition-duration: 0.4s;
+    margin: 0rem .625rem;
+}
+#container a:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+#quizpgage_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+#quizpgage_container h2{
+    color: white;
+    
+
+}
+#quizpgage_container label{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+#quizpgage_container input{
+    width: 250px;
+    height: 30px;
+    font-size: 20x;
+    border-radius: 7px;
+}
+#quizpgage_container button{
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    background-color: white;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#quizpgage_container button:hover{
+    color: white;
+    background-color: darkblue;
+    border: 2px solid white;
+}
+#quizpgage_container p{
+    display: none;
+    color: red;
+}
+
+#outerh2{
+    color: white;
+    font-size: 25px;
+}
+#outerh3{
+    color: white;
+    font-size: 20px;
+}
+
+#quizpgage_containe2{
+    display: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    min-width: 500px;
+    min-height: 500px;
+    padding: 30px;
+}
+
+#quizpgage_containe2{
+    display: none;
+    grid-template-rows: 1fr;
+    background-color: rgb(46, 46, 197);
+    justify-content: center;
+    align-items: center;
+}
+#quizpgage_containe2 h2{
+    color: white;
+    font-size: 30px;
+}
+#quizpgage_containe2 button{
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    border: 2px solid white;
+}
+#quizpgage_containe2 button:hover{
+    color:  white;
+    background-color: darkblue;
+    column-rule: white;
+    border: 2px solid white;
+}
+#quizpgage_containe2 label{
+    color: white;
+}
+#quizpgage_containe2 p{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    border: 2px solid white;
+}
+/* container css over*/
+
+/* footer css */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 6, 121);
+    height: 5rem;
+    color: wheat;
+    text-align: center;
+}
+
+
+/* quiz css */
+
+.quiz,
+.choices {
+    list-style-type: none;
+    padding: 0;
+}
+.choices li {
+    margin-bottom: 5px;
+}
+.choices label {
+    display: flex;
+    align-items: center;
+}
+.choices label,
+input[type="radio"] {
+    cursor: pointer;
+}
+input[type="radio"] {
+    margin-right: 8px;
+}
+.view-results {
+    padding: 1rem;
+    cursor: pointer;
+    font-size: inherit;
+    color: white;
+    background: teal;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.my-results {
+    padding: 1rem;
+    border: 1px solid goldenrod;
+}
+.choices li{
+    width: 350px;
+    height: 40px;
+    font-size: 20x;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#myresults{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* quiz css over */
+
+#demo{
+    color: red;
+}
